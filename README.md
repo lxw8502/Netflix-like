@@ -23,7 +23,7 @@ Render the data with a single template only and ensure that different functions 
 
 This project used React and Redux to implement a Netflix-like page.
 
-You can run this project at https://codesandbox.io/s/modest-feather-btugu
+You can run this project at https://codesandbox.io/s/modest-feather-btugu and see the page at https://btugu.csb.app/
 
 I created a mock API to fetch the data.
 This mock API endpoint is https://60c91bc47dafc90017ffc23d.mockapi.io/api/v1/movies
