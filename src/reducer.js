@@ -14,7 +14,6 @@ export default function reducer(
         return item.id === action.payload;
       });
       mylist = [...state.mylist, ...addItem];
-      console.log("add ");
       recommendations = state.recommendations.filter((item) => {
         return item.id !== action.payload;
       });
@@ -27,7 +26,6 @@ export default function reducer(
       mylist = state.mylist.filter((item) => {
         return item.id !== action.payload;
       });
-      console.log("remove ");
       return { mylist, recommendations };
     default:
       return state;
